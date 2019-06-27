@@ -57,7 +57,7 @@ public class JsonUtil {
     private static void configCommon() {
         config(mapper);
     }
-
+    //
     private static void configPropertyInclusion() {
         mapper.setSerializationInclusion(DEFAULT_PROPERTY_INCLUSION);
     }
